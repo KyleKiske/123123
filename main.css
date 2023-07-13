@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+#about, #portfolio, #blog, #team, #contact {
+    scroll-margin-top:60px;
+}
+
+#navbarSupportedContent {
+    justify-content: flex-end;
+}
+
+header {
+    height: 100vh;
+    background-image: url('images/headerback.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 25%;
+}
+
+.description p {
+    margin-right: 25vw;
+    font-size: 1.5rem;
+}
+
+.description button {
+    background-color: darkorange;
+    border: 2px solid orange;
+}
+
+figcaption {
+    font-family: monospace;
+}
+
+#portfolio img {
+    width: 100%;
+    height: 15rem;
+    margin: 1rem;
+}
+
+.card-img-top {
+    height: 16rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+figure img {
+    border-radius: 50%;
+}
+
+.team .item {
+	position: relative;
+}
+
+.team .des {
+    background-color: skyblue;
+}
+
+.item:hover .des {
+    transition: .5s ease;
+    transform: translateY(12px) scale(1.1);
+}
+
+.item:hover .des {
+    transition: .5s ease;
+    transform: translateY(12px) scale(1.1);
+}
+
+.item:hover .text-muted {
+    display: inline-block;
+    transition: .5s ease;
+    transform: translateY(12px) scale(1.1);
+}
+
+.item:hover .img-fluid {
+    transition: .5s ease;
+    transform: scale(1.1);
+}
+
+.item .text-muted {
+    display: inline-block;
+}
+
+.item .img-fluid {
+    transition: ease-in-out transform .5s;
+}
+
+.item .des, .item .text-muted {
+    transition: ease-in-out transform .5s;
+}
